@@ -25,7 +25,7 @@
         } */
 
   //qUESTION 3 PROGRAM to input week number and print the day of week name using swtich case 
-        Scanner sc = new Scanner(System.in );
+   /*    Scanner sc = new Scanner(System.in );
         int WEEK = sc.nextInt();
         switch(WEEK) {
             case 1 :
@@ -52,8 +52,17 @@
              default :
              System.out.println("not your day") ;
 
+*/
+            //QUESTION NUMBER 5 FINDING WHTER IT IS  A LEAP YR OR NOT ..?
+            Scanner sc = new Scanner(System.in);
+            int  A = sc.nextInt();
+            if ( A%4==0) {
+                System.out.println("it is leap year") ;
 
-             
+            }
+            else {
+                System.out.println("not a leap year") ;
+            }
             
         }
  
@@ -61,4 +70,4 @@
            
  
     }
-  }
+  
